@@ -16,8 +16,8 @@ I'm currently focused on improving my skills through hands-on projects and explo
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Git & GitHub
 
 ## ✨ Features
@@ -28,12 +28,4 @@ I'm currently focused on improving my skills through hands-on projects and explo
 - Contact section
 - Clean and simple UI
 
-## 📂 Project Structure
-
-```text
-portfolio/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-└── README.md
+- 
