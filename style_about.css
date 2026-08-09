@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(180deg,
+            #12081F,
+            #1A1035,
+            #090414);
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #4F1CFF 0%, #6D28D9 40%, #1E1B4B 100%);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    align-items: center;
+    padding: 12px
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "Playwrite AU TAS", cursive;
+    font-size: 26px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-family: "Bitcount Single", system-ui;
+    font-size: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section from here ------------------------------------------  */
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.left{
+    /* border: 1px solid rgba(168, 85, 247, 0.25); */
+    width: 40vw;
+    /* height: 60vh; */
+    min-height: 60vh;
+    border-radius: 18px;
+}
+
+.left_one{
+    /* border: 1px solid rgba(168, 85, 247, 0.25);
+    width: 40vw;
+    height: 25vh;
+    border-radius: 18px; */
+
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_one p{
+    max-width: 600px;
+    text-align:left;
+    /* width: 85%; */
+    font-size: 18px;
+    padding: 25px;
+    line-height: 1.2;
+}
+
+.left_one h2{
+    margin-left: 22px;
+}
+.left_one span{
+    background: linear-gradient(90deg,
+            #C084FC 0%,
+            #A855F7 35%,
+            #7C3AED 70%,
+            #4F46E5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.info_row{
+    display: grid;
+    grid-template-columns: 60px 180px 1fr;
+    align-items: center;
+    color: white;
+    margin-left: 14px;padding: 10px;font-size: 22px;
+}
+
+
+
+.left_two i{
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #261542;
+    border: 1px solid rgba(168, 85, 247, 0.35);
+    border-radius: 14px;
+
+    box-shadow:
+        0 0 18px rgba(168, 85, 247, 0.12),
+        inset 0 0 10px rgba(255,255,255,0.03);
+}
+
+
+.right{
+    border: 1px solid rgba(168, 85, 247, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    border-radius: 23px;
+
+    justify-content: flex-start;   /* or remove it completely */
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.right img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2222px;
+    width: 220px;
+    object-fit: cover;
+}
+
+.text{
+    color: white;
+    font-size: 25px;
+    max-width: 85%;
+
+}
+
+.icons{
+
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 50px;
+}
+
+.icons a{
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #24143A;
+    border: 1px solid rgba(168, 85, 247, .35);
+    border-radius: 16px;
+
+    box-shadow:
+        0 0 18px rgba(168,85,247,.15),
+        inset 0 0 10px rgba(255,255,255,.03);
+
+    text-decoration: none;
+    transition: .3s;
+}
+
+.icons a i{
+    font-size: 28px;
+    color: white;
+}
+.icons a:hover{
+    transform: translateY(-5px);
+    background: #A855F7;
+    box-shadow: 0 0 25px rgba(168,85,247,.5);
+}
+
+.footer{
+    margin-top: 20px;
+    font-size: 22px;
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+    background: linear-gradient(180deg,
+            #12081F,
+            #0D0718,
+            #05030C);
+}
