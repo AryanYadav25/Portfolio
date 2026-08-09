@@ -6,7 +6,7 @@ This project showcases my skills, projects, and journey as a Computer Science st
 
 ## 🌐 Live Website
 
-
+https://aryanyadav25.github.io/Portfolio/
 
 ## 📌 About
 
