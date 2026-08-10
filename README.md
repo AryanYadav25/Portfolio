@@ -27,5 +27,3 @@ I'm currently focused on improving my skills through hands-on projects and explo
 - Projects showcase
 - Contact section
 - Clean and simple UI
-
-- 
